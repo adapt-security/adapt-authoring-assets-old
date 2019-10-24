@@ -1,0 +1,17 @@
+{
+  "description": "Module for handling Adapt assets",
+  "homepage": "https://github.com/dancgray/adapt-authoring-assets",
+  "main": "index.js",
+  "name": "adapt-authoring-assets",
+  "version": "0.0.1",
+  "adapt_authoring": {
+    "module": true,
+    "documentation": {
+      "enable": true
+    }
+  },
+  "dependencies": {
+    "adapt-authoring-core": "git+https://github.com/adapt-security/adapt-authoring-core.git",
+    "adapt-authoring-api": "git+https://github.com/adapt-security/adapt-authoring-api.git"
+  }
+}
