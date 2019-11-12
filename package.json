@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "adapt-authoring-core": "git+https://github.com/adapt-security/adapt-authoring-core.git",
-    "adapt-authoring-api": "git+https://github.com/adapt-security/adapt-authoring-api.git"
+    "adapt-authoring-api": "git+https://github.com/adapt-security/adapt-authoring-api.git",
+    "bytes": "^3.1.0",
+    "formidable": "^1.2.1"
   }
 }
