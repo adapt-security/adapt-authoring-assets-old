@@ -1,9 +1,30 @@
 {
-  "description": "Module for handling Adapt assets",
-  "homepage": "https://github.com/dancgray/adapt-authoring-assets",
-  "main": "index.js",
-  "name": "adapt-authoring-assets",
-  "version": "0.0.1",
+  "_args": [
+    [
+      "git+https://github.com/adapt-security/adapt-authoring-assets.git",
+      "/source/adapt-security/adapt-authoring"
+    ]
+  ],
+  "_from": "git+https://github.com/adapt-security/adapt-authoring-assets.git",
+  "_id": "adapt-authoring-assets@git+https://github.com/adapt-security/adapt-authoring-assets.git#f76f7dc418fa4414aed1c0be270459aafeb66ee7",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/adapt-authoring-assets",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/adapt-security/adapt-authoring-assets.git",
+    "rawSpec": "git+https://github.com/adapt-security/adapt-authoring-assets.git",
+    "saveSpec": "git+https://github.com/adapt-security/adapt-authoring-assets.git",
+    "fetchSpec": "https://github.com/adapt-security/adapt-authoring-assets.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/adapt-security/adapt-authoring-assets.git#f76f7dc418fa4414aed1c0be270459aafeb66ee7",
+  "_spec": "git+https://github.com/adapt-security/adapt-authoring-assets.git",
+  "_where": "/source/adapt-security/adapt-authoring",
   "adapt_authoring": {
     "module": true,
     "documentation": {
@@ -11,7 +32,15 @@
     }
   },
   "dependencies": {
+    "adapt-authoring-api": "git+https://github.com/adapt-security/adapt-authoring-api.git",
     "adapt-authoring-core": "git+https://github.com/adapt-security/adapt-authoring-core.git",
-    "adapt-authoring-api": "git+https://github.com/adapt-security/adapt-authoring-api.git"
-  }
+    "bytes": "^3.1.0",
+    "formidable": "^1.2.1",
+    "fs-extra": "^8.1.0"
+  },
+  "description": "Module for handling Adapt assets",
+  "homepage": "https://github.com/dancgray/adapt-authoring-assets",
+  "main": "index.js",
+  "name": "adapt-authoring-assets",
+  "version": "0.0.1"
 }
