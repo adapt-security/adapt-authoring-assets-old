@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "asset",
+  "description": "An Adapt asset.json file",
+  "type": "object",
+  "properties": {
+    "title": {
+      "description": "The asset title",
+      "type": "string"
+    },
+    "description": {
+      "description": "The asset description",
+      "type": "string"
+    },
+    "assetType": {
+      "description": "The asset type (audio, video, image etc)",
+      "type": "string"
+    },
+    "path": {
+      "description": "The relative path to the stored asset",
+      "type": "string"
+    },
+    "filename": {
+      "description": "The file name of the asset",
+      "type": "string"
+    }
+  },
+  "required": ["title", "path", "filename"]
+}
