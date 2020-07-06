@@ -16,7 +16,7 @@
 
 * Structure / Architecture
 * Abstraction level
-* Naming (Classes, resources) : api/asset or api/assets (first is legacy secone is more consistent)
+* Naming (Classes, resources) : api/asset or api/assets (first is as in legacy version, second is more consistent)
 * Dependencies
 * Details
 
@@ -26,4 +26,11 @@
 * Proper Error Handling
 * Tests
 * Querying for specific assets based on title, description, tags... (API not yet defined?)
+* Authorization
+
+### Missing B
+* Collections (Categories) of Assets
+* Replacement of an Asset File itself. (E.g. to automatically replace a specific asset throughout a course.)
+
+
 
