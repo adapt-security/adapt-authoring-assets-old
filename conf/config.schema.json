@@ -1,0 +1,34 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "maxFileUploadSize": {
+            "type": "number",
+            "description": "Maximum file upload size",
+            "default": "1000000"
+        },
+        "uploadDir": {
+            "type": "string",
+            "description": "Assets repository location",
+            "default": ""
+        },
+        "thumbnail_max_width": {
+            "type": "number",
+            "description": "Maximum width to fit thumbnail in",
+            "default": 200
+        },
+        "thumbnail_max_height": {
+            "type": "number",
+            "description": "Maximum height to fit thumbnail in",
+            "default": 100
+        },
+        "thumbnail_suffix" : {
+            "type" : "string",
+            "description" : "string ot append to an image to get name for thumbnail",
+            "default": "_tn"
+        }
+    },
+    "required": [
+        "uploadDir"
+    ]
+}

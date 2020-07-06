@@ -1,2 +1,2 @@
-const assetApiModule = require('./lib/assetApiModule');
-module.exports = assetApiModule;
+const Assets = require('./lib/assetsmodule');
+module.exports = Assets;

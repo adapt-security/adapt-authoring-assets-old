@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "asset",
+  "description": "An Adapt assets.json file",
+  "type": "object",
+  "properties": {
+    "_isDeleted": {
+      "description": "Is the asset deleted?",
+      "type": "boolean"
+    },
+    "tags": {
+      "description": "The tags of asset",
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "createdAt": {
+      "description": "The created date of asset ",
+      "type": "string"
+    },
+    "metadata": {
+      "description": "The metadata of asset",
+      "type": "object"
+    },
+    "createdBy": {
+      "description": "The ID of the user who created the asset",
+      "type": "object"
+    },
+    "title": {
+      "description": "The asset title",
+      "type": "string"
+    },
+    "description": {
+      "description": "The asset description",
+      "type": "string"
+    },
+    "assetType": {
+      "description": "The asset type (audio, video, image etc)",
+      "type": "string"
+    },
+    "path": {
+      "description": "The relative path to the stored asset",
+      "type": "string"
+    },
+    "size": {
+      "description": "The size of the asset",
+      "type": "number"
+    }
+  }
+}
