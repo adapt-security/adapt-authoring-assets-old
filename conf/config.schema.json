@@ -12,17 +12,17 @@
             "description": "Assets repository location",
             "default": ""
         },
-        "thumbnail_max_width": {
+        "thumbnailMaxWidth": {
             "type": "number",
             "description": "Maximum width to fit thumbnail in",
             "default": 200
         },
-        "thumbnail_max_height": {
+        "thumbnailMaxHeight": {
             "type": "number",
             "description": "Maximum height to fit thumbnail in",
             "default": 100
         },
-        "thumbnail_suffix": {
+        "thumbnailSuffix": {
             "type": "string",
             "description": "string ot append to an image to get name for thumbnail",
             "default": "_tn"
