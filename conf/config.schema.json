@@ -5,7 +5,7 @@
         "maxFileUploadSize": {
             "type": "number",
             "description": "Maximum file upload size",
-            "default": "1000000"
+            "default": 1000000
         },
         "uploadDir": {
             "type": "string",
@@ -22,10 +22,15 @@
             "description": "Maximum height to fit thumbnail in",
             "default": 100
         },
-        "thumbnail_suffix" : {
-            "type" : "string",
-            "description" : "string ot append to an image to get name for thumbnail",
+        "thumbnail_suffix": {
+            "type": "string",
+            "description": "string ot append to an image to get name for thumbnail",
             "default": "_tn"
+        },
+        "acceptableTypes": {
+            "type": "array",
+            "description": "array of acceptable types",
+            "default": ["image/jpeg", "image/png", "image/gif", "audio/mpeg", "video/mp4"]
         }
     },
     "required": [
