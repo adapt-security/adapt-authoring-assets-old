@@ -9,28 +9,11 @@
             "type": "boolean",
             "default": false
         },
-        "tags": {
-            "description": "The tags of asset",
-            "type": "array",
-            "items": {
-                "type": "object"
-            },
-            "default": []
-        },
-        "createdAt": {
-            "description": "The created date of asset ",
-            "type": "string"
-        },
         "metadata": {
             "description": "The metadata of asset",
             "type": "object",
             "default": {}
 
-        },
-        "createdBy": {
-            "description": "The ID of the user who created the asset",
-            "type": "object",
-            "default": {}
         },
         "title": {
             "description": "The asset title",
