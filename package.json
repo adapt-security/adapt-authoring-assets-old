@@ -2,9 +2,9 @@
     "name": "adapt-authoring-assets",
     "version": "0.0.1",
     "description": "Assets API for Adapt Authoring Tool",
-    "homepage": "https://github.com/adaptlearning/adapt-authoring-assets",
+    "homepage": "https://github.com/adapt-security/adapt-authoring-assets",
     "license": "GPL-3.0",
-    "repository": "github:adaptlearning/adapt-authoring-assets",
+    "repository": "github:adapt-security/adapt-authoring-assets",
     "main": "index.js",
     "peerDependencies": {
         "adapt-authoring-core": "github:adapt-security/adapt-authoring-core.git"
@@ -14,7 +14,7 @@
         "formidable": "^1.2.2",
         "fs-extra": "^8.1.0",
         "path": "^0.12.7",
-        "sharp": "^0.25.2",
+        "sharp": "^0.25.4",
         "util-ffmpeg": "git+https://github.com/cgkineo/util-ffmpeg.git",
         "util-ffprobe": "git+https://github.com/cgkineo/util-ffprobe.git",
         "video-thumbnail-generator": "^1.1.3"
