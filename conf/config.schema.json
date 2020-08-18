@@ -10,7 +10,7 @@
         "uploadDir": {
             "type": "string",
             "description": "Assets repository location",
-            "default": ""
+            "default": "./temp"
         },
         "thumbnailMaxWidth": {
             "type": "number",
