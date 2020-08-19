@@ -35,8 +35,7 @@
         },
         "size": {
             "description": "The size of the asset",
-            "type": "number",
-            "default": 0
+            "type": "number"
         }
     },
     "required": ["title", "description"]
