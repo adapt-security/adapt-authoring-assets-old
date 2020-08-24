@@ -11,9 +11,7 @@
   },
   "_requested": {
     "type": "git",
-    "raw": "adapt-authoring-assets@github:adapt-security/adapt-authoring-assets",
-    "name": "adapt-authoring-assets",
-    "escapedName": "adapt-authoring-assets",
+    "raw": "github:adapt-security/adapt-authoring-assets",
     "rawSpec": "github:adapt-security/adapt-authoring-assets",
     "saveSpec": "github:adapt-security/adapt-authoring-assets",
     "fetchSpec": null,
@@ -23,8 +21,8 @@
     "#USER",
     "/"
   ],
-  "_resolved": "github:adapt-security/adapt-authoring-assets#9583a2b6c4be4c68ff37b11153718d37497788ee",
-  "_spec": "adapt-authoring-assets@github:adapt-security/adapt-authoring-assets",
+  "_resolved": "github:adapt-security/adapt-authoring-assets#298d3669244164ffc5f96ef4ae7f9a6b19f17739",
+  "_spec": "github:adapt-security/adapt-authoring-assets",
   "_where": "C:\\xampp\\htdocs\\Adapt-Server-Refactor\\adapt-authoring",
   "bugs": {
     "url": "https://github.com/adaptlearning/adapt-authoring-assets/issues"
