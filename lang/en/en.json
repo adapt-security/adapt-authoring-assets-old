@@ -34,5 +34,6 @@
     "info.assetsize": "Size",
     "info.assetduration": "Duration",
     "info.assetdimensions": "Dimensions",
-    "error.noschema": "must define API database schema"
+    "error.noschema": "must define API database schema",
+    "error.noassetsfound": "No assets found"
 }
