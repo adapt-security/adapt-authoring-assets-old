@@ -25,6 +25,7 @@
     "info.searchbyname": "Search by name",
     "info.searchbytag": "Search by tag",
     "info.searchtitleordescription": "Search title or description",
+    "info.uploadsuccessful" : "Upload successful",
     "info.filter": "Filter",
     "info.filterbytags": "Filter by tags",
     "info.filetypeother": "Other",
@@ -35,5 +36,11 @@
     "info.assetduration": "Duration",
     "info.assetdimensions": "Dimensions",
     "error.noschema": "must define API database schema",
-    "error.noassetsfound": "No assets found"
+    "error.noassetsfound": "No assets found",
+    "error.emptyfields" : "The fields are empty.",
+    "error.noasset" : "No asset is found",
+    "error.retrievingThumb": "Failed to retrieve thumb.",
+    "error.retrievingAsset": "Failed to retrieve Asset.",
+    "error.norecord" : "No record is found",
+    "error.unknowntype" : "Unknown Type"
 }
