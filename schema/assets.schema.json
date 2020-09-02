@@ -25,7 +25,7 @@
             "type": "string",
             "default": ""
         },
-        "assetType": {
+        "type": {
             "description": "The asset type (audio, video, image etc)",
             "type": "string"
         },

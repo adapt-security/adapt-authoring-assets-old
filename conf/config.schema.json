@@ -24,13 +24,13 @@
         },
         "thumbnailSuffix": {
             "type": "string",
-            "description": "string ot append to an image to get name for thumbnail",
+            "description": "string to append to an image to get name for thumbnail",
             "default": "_tn"
         },
         "acceptableTypes": {
             "type": "array",
             "description": "array of acceptable types",
-            "default": ["image/jpeg", "image/png", "image/gif", "audio/mpeg", "video/mp4"]
+            "default": ["image/jpeg", "image/png", "image/gif", "audio/mpeg", "video/mp4", "application/zip"]
         }
     },
     "required": [
