@@ -11,6 +11,10 @@
             "type": "string",
             "description": "Assets repository location"
         },
+        "uploadTempDir": {
+            "type": "string",
+            "description": "Temporary directory for file uploads"
+        },
         "thumbnailMaxWidth": {
             "type": "number",
             "description": "Maximum width to fit thumbnail in",
