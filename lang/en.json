@@ -42,5 +42,7 @@
     "error.retrievingThumb": "Failed to retrieve thumb.",
     "error.retrievingAsset": "Failed to retrieve Asset.",
     "error.norecord" : "No record is found",
-    "error.unknowntype" : "Unknown Type"
+    "error.unknowntype" : "Unknown Type",
+    "error.failedtocreatedir" : "Failer to create directory.",
+    "error.failedunzip" : "Failed to unzip zip file."
 }
