@@ -29,9 +29,11 @@
   },
   "bundleDependencies": false,
   "dependencies": {
+    "decompress": "^4.2.1",
     "fluent-ffmpeg": "2.1.0",
     "formidable": "^1.2.2",
     "fs-extra": "^8.1.0",
+    "mime": "^2.4.6",
     "path": "^0.12.7",
     "sharp": "^0.25.2",
     "util-ffmpeg": "git+https://github.com/cgkineo/util-ffmpeg.git",
