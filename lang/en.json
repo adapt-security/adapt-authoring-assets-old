@@ -35,6 +35,7 @@
     "info.assetsize": "Size",
     "info.assetduration": "Duration",
     "info.assetdimensions": "Dimensions",
+    "info.deletesuccessful" : "Asset is deleted successfully",
     "error.noschema": "must define API database schema",
     "error.noassetsfound": "No assets found",
     "error.emptyfields" : "The fields are empty.",
@@ -44,5 +45,7 @@
     "error.norecord" : "No record is found",
     "error.unknowntype" : "Unknown Type",
     "error.failedtocreatedir" : "Failer to create directory.",
-    "error.failedunzip" : "Failed to unzip zip file."
+    "error.failedunzip" : "Failed to unzip zip file.",
+    "error.faileddeletefile" : "Faile to delete this file.",
+    "error.faileddeleterecord" : "Faile to delete the assets record."
 }
