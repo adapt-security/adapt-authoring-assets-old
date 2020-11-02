@@ -45,6 +45,8 @@
   "error.norecord": "No record is found",
   "error.nofile": "No file is found",
   "error.unknowntype": "Unknown Type",
+  "error.notsuppertedfiletype": "This file type is not supported",
+  "error.notsamefiletype": "You've uploaded a file with different type",
   "error.failedtocreatedir": "Failer to create directory.",
   "error.failedunzip": "Failed to unzip zip file.",
   "error.faileddeletefile": "Faile to delete this file.",
