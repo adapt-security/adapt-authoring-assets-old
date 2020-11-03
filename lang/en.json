@@ -40,6 +40,7 @@
   "error.noassetsfound": "No assets found",
   "error.emptyfields": "The fields are empty.",
   "error.noasset": "No asset is found",
+  "error.notimagefile": "Please select an image file for poster image",
   "error.retrievingThumb": "Failed to retrieve thumb.",
   "error.retrievingAsset": "Failed to retrieve Asset.",
   "error.norecord": "No record is found",
