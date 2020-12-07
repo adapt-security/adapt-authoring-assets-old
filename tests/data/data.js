@@ -72,10 +72,10 @@ const data = {
     {mimeType: "application/zip", extension: "zip"},
   ],
   sampleFilesTuple : [
-    {filename: "sample_audio", extension: "mp3", path : "./tests/data/files/sample_audio.mp3", hash : "58af236244a9504acbd4ab07c3d9fd9781d25402", size: 2113939},
-    {filename: "sample_photo", extension: "jpg", path : "./tests/data/files/sample_photo.jpg", hash : "f386b8a7b3869a12a381a21d84c6dd39ef4a8862", size: 5529555},
-    {filename: "sample_video", extension: "mp4", path : "./tests/data/files/sample_video.mp4", hash : "1385f0808b7ef1600b6c39244917ef1df2ce6652", size: 3114374},
-    {filename: "sample_zip", extension: "zip", path : "./tests/data/files/sample_zip.zip", hash : "0cfd52dfb7f92938eeb93b4204b348ce2a7cc8b6", size: 10773799},
+    {filename: "sample_audio", extension: "mp3", path : "./tests/data/files/sample_audio.mp3", thumb:"", hash : "58af236244a9504acbd4ab07c3d9fd9781d25402", size: 2113939},
+    {filename: "sample_photo", extension: "jpg", path : "./tests/data/files/sample_photo.jpg", thumb: "./tests/data/assets/f3/86/f386b8a7b3869a12a381a21d84c6dd39ef4a8862_tn.jpg", hash : "f386b8a7b3869a12a381a21d84c6dd39ef4a8862", size: 5529555},
+    {filename: "sample_video", extension: "mp4", path : "./tests/data/files/sample_video.mp4", thumb: "./tests/data/assets/13/85/1385f0808b7ef1600b6c39244917ef1df2ce6652_tn.png", hash : "1385f0808b7ef1600b6c39244917ef1df2ce6652", size: 3114374},
+    {filename: "sample_zip", extension: "zip", path : "./tests/data/files/sample_zip.zip", thumb: "", hash : "0cfd52dfb7f92938eeb93b4204b348ce2a7cc8b6", size: 10773799},
   ],
   tempDir : "./tests/data/tempDir"
 };

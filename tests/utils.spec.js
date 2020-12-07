@@ -86,7 +86,7 @@ describe('AssetsUtils', function () {
   describe('AssetsUtils.removeDir', function () {
     let dirPath = data.tempDir;
     fs.existsSync(dirPath);
-    it(`should return true boolean ${dirPath}} -> ${true}`, function () {
+    it(`should return true boolean ${dirPath} -> ${true}`, function () {
       AssetsUtils.removeDir(dirPath).then((result) => {
         result.should.equal(true);
       });
@@ -94,5 +94,3 @@ describe('AssetsUtils', function () {
   });
   //TODO:Write test to getMaxThumbSize 
 });
-
-
