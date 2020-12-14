@@ -71,6 +71,19 @@ const data = {
     {mimeType: "video/mp4", extension: "mp4"},
     {mimeType: "application/zip", extension: "zip"},
   ],
+  SampleSizeTuple : [
+    {width :800, height:400, maxThumbWidth: 200, maxThumbHeight:300 , sizeResult:{width:200, height:200}},
+    {width :300, height:300, maxThumbWidth: 200, maxThumbHeight:300 , sizeResult:{width:200, height:200}},
+    {width :650, height:240, maxThumbWidth: 100, maxThumbHeight:300 , sizeResult:{width:100, height:200}},
+    {width :500, height:600, maxThumbWidth: 200, maxThumbHeight:200 , sizeResult:{width:166, height:200}},
+    {width :799, height:320, maxThumbWidth: 300, maxThumbHeight:200 , sizeResult:{width:300, height:200}},
+    {width :752, height:1300, maxThumbWidth: 550, maxThumbHeight:180 , sizeResult:{width:104, height:200}},
+    {width :800, height:360, maxThumbWidth: 180, maxThumbHeight:550 , sizeResult:{width:180, height:200}},
+    {width :160, height:480, maxThumbWidth: 620, maxThumbHeight:120 , sizeResult:{width:40, height:200}},
+    {width :800, height:551, maxThumbWidth: 132, maxThumbHeight:199 , sizeResult:{width:132, height:200}},
+    {width :713, height:550, maxThumbWidth: 185, maxThumbHeight:120, sizeResult:{width:155 , height:200}},
+    {width :150, height:400, maxThumbWidth: 199, maxThumbHeight:290 , sizeResult:{width:108, height:200}}
+  ],
   sampleFilesTuple : [
     {filename: "sample_audio", extension: "mp3", path : "./tests/data/files/sample_audio.mp3", thumb:"", hash : "58af236244a9504acbd4ab07c3d9fd9781d25402", size: 2113939},
     {filename: "sample_photo", extension: "jpg", path : "./tests/data/files/sample_photo.jpg", thumb: "./tests/data/assets/f3/86/f386b8a7b3869a12a381a21d84c6dd39ef4a8862_tn.jpg", hash : "f386b8a7b3869a12a381a21d84c6dd39ef4a8862", size: 5529555},
