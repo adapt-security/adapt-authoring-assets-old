@@ -15,17 +15,14 @@ const data = require('./data/data');
 
 describe('FileProcessor', function () {
   const fileProcessor = new FileProcessor();
-
-  describe('FileProcessor.createImageThumb', function () {
+  describe('FileProcessor.createImageThumb()', function () {
     data.sampleFilesTuple.forEach((entry) => {
-      if(entry.extension !== 'jpg' || entry.extension !== 'png' || entry.extension !== 'gif') return;
-      const filepath = entry.filepath;
       it(`should return Promise createImageThumb Function`, function () {
         fileProcessor.createImageThumb(filepath).should.be.a.Promise()
       });
     });
   });
-  describe('FileProcessor.createVideoThumbnail', function () {
+  describe('FileProcessor.createVideoThumbnail()', function () {
     data.sampleFilesTuple.forEach((entry) => {
       if(entry.extension !== 'mp4') return;
       const filepath = entry.filepath;

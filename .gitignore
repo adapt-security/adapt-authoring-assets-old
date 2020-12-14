@@ -3,4 +3,4 @@
 /.idea
 /dev
 .eslintrc.js
-/.vscode/settings.json
+.vscode
