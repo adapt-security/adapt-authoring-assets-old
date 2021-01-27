@@ -1,33 +1,14 @@
 {
-  "_from": "github:adapt-security/adapt-authoring-assets",
-  "_id": "adapt-authoring-assets@0.0.1",
-  "_inBundle": false,
-  "_integrity": "",
-  "_location": "/adapt-authoring-assets",
-  "_phantomChildren": {
-    "graceful-fs": "4.2.4",
-    "jsonfile": "4.0.0",
-    "universalify": "0.1.2"
+  "name": "adapt-authoring-assets",
+  "version": "0.0.1",
+  "description": "Assets API for Adapt Authoring Tool",
+  "homepage": "https://github.com/adapt-security/adapt-authoring-assets",
+  "license": "GPL-3.0",
+  "repository": "github:adapt-security/adapt-authoring-assets",
+  "main": "index.js",
+  "peerDependencies": {
+    "adapt-authoring-core": "github:adapt-security/adapt-authoring-core.git"
   },
-  "_requested": {
-    "type": "git",
-    "raw": "github:adapt-security/adapt-authoring-assets",
-    "rawSpec": "github:adapt-security/adapt-authoring-assets",
-    "saveSpec": "github:adapt-security/adapt-authoring-assets",
-    "fetchSpec": null,
-    "gitCommittish": null
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "github:adapt-security/adapt-authoring-assets#298d3669244164ffc5f96ef4ae7f9a6b19f17739",
-  "_spec": "github:adapt-security/adapt-authoring-assets",
-  "_where": "C:\\xampp\\htdocs\\Adapt-Server-Refactor\\adapt-authoring",
-  "bugs": {
-    "url": "https://github.com/adaptlearning/adapt-authoring-assets/issues"
-  },
-  "bundleDependencies": false,
   "dependencies": {
     "decompress": "^4.2.1",
     "fluent-ffmpeg": "2.1.0",
@@ -40,25 +21,11 @@
     "util-ffprobe": "git+https://github.com/cgkineo/util-ffprobe.git",
     "video-thumbnail-generator": "^1.1.3"
   },
-  "deprecated": false,
-  "description": "Assets API for Adapt Authoring Tool",
   "devDependencies": {
     "mocha": "^6.2.3",
     "should": "13.2.3"
   },
-  "homepage": "https://github.com/adaptlearning/adapt-authoring-assets",
-  "license": "GPL-3.0",
-  "main": "index.js",
-  "name": "adapt-authoring-assets",
-  "peerDependencies": {
-    "adapt-authoring-core": "github:adapt-security/adapt-authoring-core.git"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adaptlearning/adapt-authoring-assets.git"
-  },
   "scripts": {
     "test": "mocha --recursive './tests/*.spec.js'"
-  },
-  "version": "0.0.1"
+  }
 }
