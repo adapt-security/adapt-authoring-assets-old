@@ -92,5 +92,4 @@ describe('AssetsUtils', function () {
       });
     });
   });
-  //TODO:Write test to getMaxThumbSize 
 });
