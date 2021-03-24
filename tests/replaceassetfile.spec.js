@@ -1,7 +1,7 @@
 const should = require('should');
-const assetsrepository = require('../lib/assetsrepository');
+const replaceassetfile = require('../lib/replaceassetfile');
 
-describe('Asset module repository', function() { 
+describe('replaceassetfile module', function() { 
   it('Should return an object', function() {
     false.should.be.true();
   });
