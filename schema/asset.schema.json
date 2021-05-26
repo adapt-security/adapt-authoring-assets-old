@@ -4,11 +4,6 @@
     "description": "An Adapt assets.json file",
     "type": "object",
     "properties": {
-        "_isDeleted": {
-            "description": "Is the asset deleted?",
-            "type": "boolean",
-            "default": false
-        },
         "metadata": {
             "description": "The metadata of asset",
             "type": "object",
