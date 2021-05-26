@@ -50,6 +50,7 @@
   "error.notsamefiletype": "You've uploaded a file with different type",
   "error.failedtocreatedir": "Failer to create directory.",
   "error.failedunzip": "Failed to unzip zip file.",
+  "error.failedquery": "Failed to query assets.",
   "error.faileddeletefile": "Faile to delete this file.",
   "error.faileddeleterecord": "Faile to delete the assets record.",
   "error.failedparsing": "Error while parsing."
