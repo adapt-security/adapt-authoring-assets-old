@@ -9,7 +9,8 @@
         },
         "uploadDir": {
             "type": "string",
-            "description": "Assets repository location"
+            "description": "Assets repository location",
+            "default": "temp/assets"
         },
         "uploadTempDir": {
             "type": "string",
@@ -35,8 +36,5 @@
             "description": "array of acceptable types",
             "default": ["image/jpeg", "image/png", "image/gif", "audio/mpeg", "video/mp4", "application/zip"]
         }
-    },
-    "required": [
-        "uploadDir"
-    ]
+    }
 }
