@@ -34,6 +34,9 @@
         "acceptableTypes": {
             "type": "array",
             "description": "array of acceptable types",
+            "items": {
+                "type": "string"
+            }
             "default": ["image/jpeg", "image/png", "image/gif", "audio/mpeg", "video/mp4", "application/zip"]
         }
     }
