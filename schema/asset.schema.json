@@ -7,30 +7,49 @@
         "metadata": {
             "description": "The metadata of asset",
             "type": "object",
-            "default": {}
-
+            "default": {},
+            "_backboneForms": {
+                "showInUi": false
+            }
         },
         "title": {
+            "title": "Title",
             "description": "The asset title",
             "type": "string",
             "default": ""
         },
         "description": {
+            "title": "Description",
             "description": "The asset description",
             "type": "string",
             "default": ""
         },
         "type": {
             "description": "The asset type (audio, video, image etc)",
-            "type": "string"
+            "type": "string",
+            "_backboneForms": {
+                "showInUi": false
+            }
         },
         "path": {
             "description": "The relative path to the stored asset",
-            "type": "string"
+            "type": "string",
+            "_backboneForms": {
+                "showInUi": false
+            }
+        },
+        "url": {
+            "title": "URL",
+            "description": "If using an external asset, this should be the URL to the asset",
+            "type": "string",
+            "format": "uri"
         },
         "size": {
             "description": "The size of the asset",
-            "type": "number"
+            "type": "number",
+            "_backboneForms": {
+                "showInUi": false
+            }
         }
     },
     "required": ["title", "description"]
