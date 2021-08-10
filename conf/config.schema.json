@@ -29,7 +29,7 @@
         "thumbnailSuffix": {
             "type": "string",
             "description": "string to append to an image to get name for thumbnail",
-            "default": "_tn"
+            "default": "_thumb"
         },
         "acceptableTypes": {
             "type": "array",
