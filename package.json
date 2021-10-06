@@ -4,10 +4,10 @@
   "description": "Assets API for Adapt Authoring Tool",
   "homepage": "https://github.com/adapt-security/adapt-authoring-assets",
   "license": "GPL-3.0",
-  "repository": "adapt-security/adapt-authoring-assets",
   "main": "index.js",
-  "peerDependencies": {
-    "adapt-authoring-core": "adapt-security/adapt-authoring-core"
+  "repository": "adapt-security/adapt-authoring-assets",
+  "scripts": {
+    "test": "mocha --recursive './tests/*.spec.js'"
   },
   "dependencies": {
     "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth",
@@ -28,7 +28,7 @@
     "mocha": "^6.2.3",
     "should": "13.2.3"
   },
-  "scripts": {
-    "test": "mocha --recursive './tests/*.spec.js'"
+  "peerDependencies": {
+    "adapt-authoring-core": "adapt-security/adapt-authoring-core"
   }
 }
