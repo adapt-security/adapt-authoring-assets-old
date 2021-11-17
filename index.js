@@ -1,2 +1,1 @@
-const Assets = require('./lib/assetsmodule');
-module.exports = Assets;
+export { default } from './lib/assetsmodule';

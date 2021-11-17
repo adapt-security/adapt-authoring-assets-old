@@ -4,6 +4,7 @@
   "description": "Assets API for Adapt Authoring Tool",
   "homepage": "https://github.com/adapt-security/adapt-authoring-assets",
   "license": "GPL-3.0",
+  "type": "module",
   "main": "index.js",
   "repository": "adapt-security/adapt-authoring-assets",
   "scripts": {
