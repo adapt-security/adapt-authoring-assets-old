@@ -1,1 +1,1 @@
-export { default } from './lib/assetsmodule';
+export { default } from './lib/assetsmodule.js';
