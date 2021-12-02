@@ -6,7 +6,7 @@
   "license": "GPL-3.0",
   "type": "module",
   "main": "index.js",
-  "repository": "adapt-security/adapt-authoring-assets",
+  "repository": "github:adapt-security/adapt-authoring-assets",
   "scripts": {
     "test": "mocha --recursive './tests/*.spec.js'"
   },
