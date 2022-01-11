@@ -15,14 +15,12 @@
         "title": {
             "title": "Title",
             "description": "The asset title",
-            "type": "string",
-            "default": ""
+            "type": "string"
         },
         "description": {
             "title": "Description",
             "description": "The asset description",
-            "type": "string",
-            "default": ""
+            "type": "string"
         },
         "type": {
             "description": "The asset type (audio, video, image etc)",
