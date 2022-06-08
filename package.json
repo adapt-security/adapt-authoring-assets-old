@@ -11,9 +11,10 @@
     "test": "mocha --recursive './tests/*.spec.js'"
   },
   "dependencies": {
-    "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth",
     "adapt-authoring-api": "github:adapt-security/adapt-authoring-api",
+    "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth",
     "adapt-authoring-core": "github:adapt-security/adapt-authoring-core",
+    "axios": "^0.27.2",
     "decompress": "^4.2.1",
     "ffmpeg-static": "^4.3.0",
     "ffprobe": "^1.1.2",

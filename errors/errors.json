@@ -1,0 +1,9 @@
+{
+  "INVALID_ASSET_URL": {
+    "data": {
+      "url": "The URL"
+    },
+    "description": "An invalid URL has been provided for an asset",
+    "statusCode": 400
+  }
+}
