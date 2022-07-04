@@ -15,7 +15,6 @@
     "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth",
     "adapt-authoring-core": "github:adapt-security/adapt-authoring-core",
     "axios": "^0.27.2",
-    "decompress": "^4.2.1",
     "ffmpeg-static": "^4.3.0",
     "ffprobe": "^1.1.2",
     "ffprobe-static": "^3.0.0",
@@ -24,7 +23,8 @@
     "fs-extra": "^8.1.0",
     "mime": "^2.4.6",
     "path": "^0.12.7",
-    "sharp": "^0.30.7"
+    "sharp": "^0.30.7",
+    "zipper": "github:taylortom/zipper"
   },
   "devDependencies": {
     "mocha": "^6.2.3",
