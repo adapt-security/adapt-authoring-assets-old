@@ -5,5 +5,9 @@
     },
     "description": "An invalid URL has been provided for an asset",
     "statusCode": 400
+  },
+  "NO_FILES_UPLOADED": {
+    "description": "No asset files have been uploaded",
+    "statusCode": 400
   }
 }
