@@ -19,12 +19,12 @@
         "thumbnailMaxWidth": {
             "type": "number",
             "description": "Maximum width to fit thumbnail in",
-            "default": 200
+            "default": 320
         },
         "thumbnailMaxHeight": {
             "type": "number",
             "description": "Maximum height to fit thumbnail in",
-            "default": 100
+            "default": 240
         },
         "thumbnailSuffix": {
             "type": "string",
