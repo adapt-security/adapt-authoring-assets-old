@@ -24,7 +24,7 @@
     "mime": "^2.4.6",
     "path": "^0.12.7",
     "sharp": "^0.30.7",
-    "zipper": "github:taylortom/zipper"
+    "zipper": "github:adapt-security/zipper"
   },
   "devDependencies": {
     "mocha": "^6.2.3",
