@@ -10,7 +10,7 @@
         "uploadDir": {
             "type": "string",
             "description": "Assets repository location",
-            "default": "data/assets"
+            "default": "$DATA/assets"
         },
         "uploadTempDir": {
             "type": "string",
